@@ -1,5 +1,9 @@
 #Importação das bibliotecas
+<<<<<<< HEAD
 import streamlit as st
+=======
+import streamlit as st 
+>>>>>>> ea8f70c6817fafeb3d1d3d0204ad6cb47946fa4d
 import pandas as pd
 from sklearn.model_selection import train_test_split
 from utils import DropFeatures, OneHotEncodingNames, OrdinalFeature, MinMaxWithFeatNames
@@ -14,7 +18,11 @@ dados = pd.read_csv('https://raw.githubusercontent.com/alura-tech/alura-tech-pos
 ############################# Streamlit ############################
 st.markdown('<style>div[role="listbox"] ul{background-color: #6e42ad}; </style>', unsafe_allow_html=True)
 
+<<<<<<< HEAD
 st.markdown("<h1 style='text-align: center; '> Formulário - Solicitação de Cartão de Crédito </h1>", unsafe_allow_html = True)
+=======
+st.markdown("<h1 style='text-align: center; '> Formulário para Solicitação de Cartão de Crédito </h1>", unsafe_allow_html = True)
+>>>>>>> ea8f70c6817fafeb3d1d3d0204ad6cb47946fa4d
 
 st.warning('Preencha o formulário com todos os seus dados pessoais e clique no botão **ENVIAR** no final da página.')
 
